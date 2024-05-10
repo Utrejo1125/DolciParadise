@@ -1,0 +1,133 @@
+/* Home Button CSS */
+
+.cakeImage {
+    width: 500px;
+    height: 500px;
+    padding: 10px 0;
+}
+
+.banner {
+    width: auto;
+    height: 100px;
+    background: url('/public/Images/Dolci-Banner.png') no-repeat center center;
+    background-size: cover;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.3);  /* Adds a subtle shadow for depth */
+}
+
+.homeButton {
+    text-align: left; /* Align to the left instead of center */
+    margin-top: 20px; /* Keep existing margin */
+}
+
+.homeButton a {
+    display: inline-block; /* Makes the link behave like a button */
+    padding: 15px 30px; /* Large padding for a big button */
+    background-color: #f0f0f0; /* Initial background color matching nav */
+    color: #333; /* Dark grey text matching nav */
+    font-size: 18px; /* Larger font size for better visibility */
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: none; /* Remove the underline from the link */
+    text-transform: uppercase; /* UPPERCASE text */
+    font-weight: bold; /* Bold font weight */
+    transition: background-color 0.3s, color 0.3s, transform 0.3s; /* Smooth transition for hover effects */
+}
+
+.homeButton a:hover, .homeButton a:focus {
+    background-color: #ffaa00; /* Background color on hover/focus matching nav */
+    color: #fff; /* White text color on hover/focus matching nav */
+    transform: scale(1.05); /* Slightly enlarge the button when hovered/focused */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth on hover */
+}
+
+.button {
+    display: inline-flex; /* Makes the button maintain inline properties but behave like a block */
+    padding: 15px 30px; /* Comfortable padding for clicking */
+    background-color: #f0f0f0; /* Light grey, similar to other buttons */
+    color: #333; /* Dark grey text */
+    font-size: 18px; /* Larger font size for better visibility */
+    border-radius: 5px; /* Rounded corners for a modern look */
+    text-decoration: none; /* No underline */
+    text-transform: uppercase; /* UPPERCASE text for emphasis */
+    font-weight: bold; /* Bold text for better visibility */
+    border: none; /* No border */
+    cursor: pointer; /* Cursor indicates it's clickable */
+    transition: background-color 0.3s, color 0.3s, transform 0.3s; /* Smooth transitions for interaction */
+    margin: 5px 0; /* Keep existing margin */
+    align-items: center;
+    text-decoration: none;
+}
+
+.button:hover, .button:focus {
+    background-color: #ffaa00; /* Vibrant orange on hover/focus for attention */
+    color: #fff; /* White text for contrast */
+    transform: scale(1.05); /* Slightly larger on hover/focus for a dynamic effect */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.25); /* Pronounced shadow for depth */
+    outline: none; /* Avoid default focus outline */
+}
+
+/* Icons next to buttons */
+.social-icon {
+    width: 20px;  /* Adjust size as needed */
+    height: 20px; /* Adjust size as needed */
+    margin-right: 8px; /* Space between the icon and text */
+    vertical-align: middle; /* Aligns icon with the middle of text */
+}
+
+/* Embedded Map */
+.map-container {
+    width: 100%; /* Full width of the container */
+    padding: 20px 0; /* Padding for spacing */
+}
+
+/* Hours Box Overlay */
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+    z-index: 900; /* Lower than the box but high enough to cover other content */
+}
+
+
+/* Hours Box */
+.hours-box {
+    position: fixed;  /* Use fixed to keep it in view even on scroll */
+    top: 50%;         /* Position it 50% from the top */
+    left: 50%;        /* Position it 50% from the left */
+    transform: translate(-50%, -50%); /* Adjust the box back to center from its top-left corner */
+    width: 300px;     /* Or whatever width you prefer */
+    padding: 20px;    /* Padding inside the box */
+    border: 1px solid #ccc; /* Border for visibility */
+    background-color: white; /* Background color */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Shadow for aesthetics */
+    z-index: 1000;    /* High z-index to ensure it's above other content */
+    text-align: center; /* Centers text inside the box */
+}
+
+.hours-box p {
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+
+/* Close Button CSS */
+.close-button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 0; /* Remove padding if any */
+}
+
+.close-icon {
+    width: 20px; /* Adjust according to the size of your icon */
+    height: 20px; /* Maintain aspect ratio */
+}
+
+.close-button:hover {
+    opacity: 0.8; /* Optional: style for hover effect */
+}

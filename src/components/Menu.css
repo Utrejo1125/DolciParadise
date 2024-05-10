@@ -1,0 +1,31 @@
+.page-css {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;  /* Ensure it takes at least the full height of the viewport */
+}
+
+.content {
+    flex: 1;  /* Takes up all available space pushing the footer down */
+}
+
+.home-button {
+    text-align: center;  /* Centers the link */
+    padding: 20px 0; /* Padding for the footer */
+    background-color: #f0f0f0;  /* Optional background color */ 
+}
+
+/* Mobile friendly */ 
+
+.home-button a {
+    display: inline-block;
+    padding: 10px 20px; /* Makes the link easier to tap on mobile */
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+@media (max-width: 600px) {
+    .footer-link a {
+        padding: 15px 30px; /* larger tap area on smaller screens */
+    }    
+}
