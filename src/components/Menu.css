@@ -1,15 +1,16 @@
 .page-css {
     display: flex;
     flex-direction: column;
-    min-height: 100vh;  /* Ensure it takes at least the full height of the viewport */
+    min-height: 100vh;
 }
 
 .content {
     flex: 1;  /* Takes up all available space pushing the footer down */
+    color: white;
 }
 
 .home-button {
-    text-align: center;  /* Centers the link */
+    text-align: left;  /* Centers the link */
     padding: 20px 0; /* Padding for the footer */
     background-color: #f0f0f0;  /* Optional background color */ 
 }
@@ -28,4 +29,48 @@
     .footer-link a {
         padding: 15px 30px; /* larger tap area on smaller screens */
     }    
+}
+
+/* Card Type Menu CSS */
+.menu-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.menu-item {
+    width: 300px; /* Fixed width or percentage */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin: 10px;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.menu-image {
+    width: 100%;
+    height: 200px; /* Adjust based on your design */
+    object-fit: cover; /* Ensures the image covers the area without stretching */
+}
+
+.item-details {
+    padding: 15px;
+    text-align: center;
+}
+
+.item-name {
+    font-size: 20px;
+    margin-top: 0;
+}
+
+.item-description {
+    font-size: 16px;
+    color: #666;
+}
+
+.item-price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
 }

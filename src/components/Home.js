@@ -8,7 +8,6 @@ function Home() {
     return (
         <div>
             <div className='banner' />
-            {/* <img src="/Images/Dolci-Cakes.jpg" alt="Dolci Cakes" className="cakeImage" /> */}
             <div className="homeButton">
                 <Link to="/menu/pastries">
                     <img src="./Icons/mug-hot-solid.svg" alt="Menu" className="social-icon" />
@@ -18,18 +17,18 @@ function Home() {
             <div>
                 <a href="https://www.instagram.com/dolciparadisebakery" className="button" target="_blank" rel="noopener noreferrer">
                     <img src="./Icons/instagram.svg" alt="Instagram" className="social-icon" />
-                    Follow Our Instagram! | Síguenos En Instagram
+                    Follow Our Instagram! | Síguenos En Instagram!
                 </a>
             </div>
             <div>
                 <a href="https://www.facebook.com/profile.php?id=100057453519721" className="button" target="_blank" rel="noopener noreferrer">
                     <img src="./Icons/facebook.svg" alt="Facebook" className="social-icon" />
-                    Follow Our Facebook! | Síguenos En Facebook
+                    Follow Our Facebook! | Síguenos En Facebook!
                 </a>
             </div>
             <button className="button" onClick={() => setShowHours(!showHours)} aria-expanded={showHours}>
                 <img src="./Icons/clock-solid.svg" alt="Clock" className="social-icon" />
-                Hours/Horario
+                Hours | Horario
             </button>
             {showHours &&
                 (
@@ -39,21 +38,21 @@ function Home() {
                             <button className="close-button" onClick={() => setShowHours(false)}>
                                 <img src="./Icons/xmark-solid.svg" alt="Close" className="close-icon" />
                             </button>
-                            <p>Hours/Horario</p>
-                            <p>Monday: 7:00 AM - 6:30 PM</p>
-                            <p>Tuesday: 7:00 AM - 5:30 PM</p>
-                            <p>Wednesday: 7:00 AM - 6:30 PM</p>
-                            <p>Thursday: 7:00 AM - 6:30 PM</p>
-                            <p>Friday: 7:00 AM - 6:30 PM</p>
-                            <p>Saturday: 7:00 AM - 6:00 PM</p>
-                            <p>Sunday: 7:00 AM - 4:00 PM</p>
+                            <p> Hours | Horario </p>
+                            <p><u> Monday: 7:00 AM - 6:30 PM </u></p>
+                            <p><u> Tuesday: 7:00 AM - 5:30 PM </u></p>
+                            <p><u> Wednesday: 7:00 AM - 6:30 PM </u></p>
+                            <p><u> Thursday: 7:00 AM - 6:30 PM </u></p>
+                            <p><u> Friday: 7:00 AM - 6:30 PM </u></p>
+                            <p><u> Saturday: 7:00 AM - 6:00 PM </u></p>
+                            <p><u> Sunday: 7:00 AM - 4:00 PM </u></p>
                         </div>
                     </>
                 )}
             <div>
                 <a href="https://g.co/kgs/sBoF2gs" className="button" target="_blank" rel="noopener noreferrer">
                     <img src="./Icons/google.svg" alt="Google" className="social-icon" />
-                    Review Us! | Evalúanos
+                    Review Us! | Evalúanos!
                 </a>
             </div>
             <div>
@@ -68,7 +67,7 @@ function Home() {
                     width="100%"
                     height="300"
                     style={{ border: 0 }}
-                    allowfullscreen=""
+                    allowFullScreen=""
                     loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"
                 />
