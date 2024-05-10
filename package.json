@@ -5,7 +5,8 @@
     "react-router-dom": "^6.23.0",
     "react-scripts": "^5.0.0"
   },
-  "main": "/index.js",
+  "homepage": "https://utrejo1125.github.io/DolciParadise",
+  "main": "/App.js",
   "name": "dolci-paradise",
   "description": "a website",
   "version": "0.0.0",
