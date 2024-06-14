@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 
 import Dolci from "./Dolci";
 import Home from "./components/Home";
@@ -10,7 +10,7 @@ import Extras from "./components/Extras";
 
 function App() {
     return (
-            <BrowserRouter>
+            <HashRouter>
                 <Routes>
                     <Route path="/" element={<Home />} />
                     <Route path="/menu" element={<Dolci />}>
@@ -20,7 +20,7 @@ function App() {
                         <Route path="extras" element={<Extras />} />
                     </Route>
                 </Routes>
-            </BrowserRouter>
+            </HashRouter>
     );
 }
 
