@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/DolciParadise/static/css/main.9a2b512a.css",
-    "main.js": "/DolciParadise/static/js/main.e55c5c72.js",
+    "main.js": "/DolciParadise/static/js/main.a64ba244.js",
     "static/media/background2.jpg": "/DolciParadise/static/media/background2.f1106cd9b67925fdeb21.jpg",
     "static/media/Dolci-Banner.svg": "/DolciParadise/static/media/Dolci-Banner.e72a82dcb34ac5069c5a.svg",
     "index.html": "/DolciParadise/index.html",
     "main.9a2b512a.css.map": "/DolciParadise/static/css/main.9a2b512a.css.map",
-    "main.e55c5c72.js.map": "/DolciParadise/static/js/main.e55c5c72.js.map"
+    "main.a64ba244.js.map": "/DolciParadise/static/js/main.a64ba244.js.map"
   },
   "entrypoints": [
     "static/css/main.9a2b512a.css",
-    "static/js/main.e55c5c72.js"
+    "static/js/main.a64ba244.js"
   ]
 }
