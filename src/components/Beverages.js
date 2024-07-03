@@ -45,7 +45,7 @@ function Beverages() {
                 </div>
             </div>
             <div class="menu-item">
-                <img src="./Images/Menu/Coffee.jpg" alt="Coffee" class="menu-image" />
+                <img src="./Images/Menu/coffee.jpg" alt="Coffee" class="menu-image" />
                 <div class="item-details">
                     <h3 class="item-name">Coffee</h3>
                     <p class="item-description">A delicious description of the menu item...</p>
